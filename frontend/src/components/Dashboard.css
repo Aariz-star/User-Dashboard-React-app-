@@ -1,0 +1,41 @@
+.complete-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complete-btn {
+  background-color: #10B981; /* Emerald 500 */
+}
+
+.complete-btn:hover {
+  background-color: #059669; /* Emerald 600 */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(16, 185, 129, 0.25);
+}
+
+.delete-btn {
+  background-color: #EF4444; /* Red 500 */
+}
+
+.delete-btn:hover {
+  background-color: #DC2626; /* Red 600 */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(239, 68, 68, 0.25);
+}
+
+.complete-btn:active,
+.delete-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
